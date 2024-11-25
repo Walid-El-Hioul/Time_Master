@@ -35,9 +35,10 @@
 - Terminal with color support
 
 ### 🚀 Installation
-Firs:
+#### Clone the repository
 ```bash
-git clone https://github.com/Walid-El-Hioul/Time_Master.git
+git clone https://github.com/YOUR-USERNAME/Time_Master.git
+cd Time_Master
 ```
 
 ### Option 1: Using Virtual Environment (Recommended)
