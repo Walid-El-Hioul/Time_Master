@@ -1,8 +1,0 @@
-Package: time-manager
-Version: 1.0-0
-Section: utils
-Priority: optional
-Architecture: all
-Depends: python3 (>= 3.6), python3-setuptools
-Maintainer: Walid-El-Hioul <walidelhioul0000@gmail.com>
-Description: Time Management System
