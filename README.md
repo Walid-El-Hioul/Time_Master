@@ -34,19 +34,39 @@
 - Python 3.7 or higher
 - Terminal with color support
 
-### Installation
+### 🚀 Installation
 
-1. Clone the repository:
+### Option 1: Using Virtual Environment (Recommended)
+>Create and activate virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Linux/Mac
+```
+or
+```bash
+python -m venv venv
+venv\Scripts\activate     # On Windows
+```
 
-```
-git clone https://github.com/yourusername/time-master.gitcd time-master
+### Option 2: System-wide Installation
+>If you really need to install system-wide, use one of these 
+
+#### methods:
+> Method 1: Using --break-system-packages flag (Not Recommended)
+```bash
+pip install --break-system-packages -e .
 ```
 
-1. Run the application:
+> Method 2: Using --user flag (Preferred for system-wide)
+```bash
+pip install --user -e .
+```
 
-```
-python main.py
-```
+⚠️ **Note**: System-wide installation is not recommended. Always prefer using a virtual environment to avoid:
+- Package conflicts
+- System Python corruption
+- Security risks
+- Version compatibility issues
 
 ## 📖 Usage Guide
 
@@ -98,17 +118,17 @@ python main.py
 - 🔴 Red: High priority/Error messages
 - 🟡 Yellow: Medium priority/Warnings
 - 🟢 Green: Low priority/Success messages
-- 🔵 Blue: Information/Headers
+- 🔵 Blue: Information
 
 ## 📁 File Structure
 
 ```
-time-master/
+time_master/
 ├── src/
 │   ├── __init__.py
 │   ├── manager.py    # Core management logic
 │   ├── color.py      # Color formatting
-│   └── timemaster.py # Main application
+│   └── time_master.py # Main application
 ├── schedule/         # Schedule storage
 └── tasks/           # Task storage
 ```
