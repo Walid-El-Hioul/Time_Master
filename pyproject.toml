@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "time_master"
+version = "1.0.0"
+description = "Time Management System with CLI Interface"
+authors = [{name = "Walid El-Hioul", email = "walidelhioul0000@gmail.com"}]
+requires-python = ">=3.7"

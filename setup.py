@@ -37,7 +37,7 @@ setup(
       ],
   },
   package_data={
-      "timemaster": ["schedule/*.json", "tasks/*.json"],
+      "time_master": ["schedule/*.json", "tasks/*.json"],
   },
   include_package_data=True,
   keywords="time management, task management, scheduling, CLI, productivity",
