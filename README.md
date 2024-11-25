@@ -39,7 +39,7 @@
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/time-master.gitcd time-master
+git clone https://github.com/yourusername/time-master.gitcd time-master](https://github.com/Walid-El-Hioul/Time_Master.git)
 ```
 
 1. Run the application:
