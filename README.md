@@ -42,10 +42,14 @@
 python -m venv venv
 source venv/bin/activate  # On Linux/Mac
 ```
+<<<<<<< HEAD
 or
 ```bash
 python -m venv venv
 venv\Scripts\activate     # On Windows
+=======
+git clone https://github.com/yourusername/time-master.gitcd time-master](https://github.com/Walid-El-Hioul/Time_Master.git)
+>>>>>>> 737ae43a3ef86c51b815a8948dcf8aac8b7f6d56
 ```
 
 ### Option 2: System-wide Installation
