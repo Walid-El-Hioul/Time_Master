@@ -124,14 +124,23 @@ pip install --user -e .
 ## 📁 File Structure
 
 ```
-time_master/
+time_master_v1.0.0/              # Project root directory
 ├── src/
 │   ├── __init__.py
-│   ├── manager.py    # Core management logic
-│   ├── color.py      # Color formatting
-│   └── time_master.py # Main application
-├── schedule/         # Schedule storage
-└── tasks/           # Task storage
+│   ├── manager.py           # Core management logic
+│   ├── color.py            # Color formatting
+│   └── time_master.py      # Main application
+├── schedule/                   # Schedule storage
+├── tasks/                     # Task storage
+├── .github/                   # GitHub templates
+│   └── ISSUE_TEMPLATE/
+│       └── bug_report.md
+├── .gitignore                # Git ignore rules
+├── LICENSE                   # MIT License file
+├── README.md                # Project documentation
+├── pyproject.toml           # Build system requirements
+├── setup.cfg               # Package configuration
+└── setup.py               # Setup script
 ```
 
 ## ⚙️ Configuration
