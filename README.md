@@ -35,6 +35,11 @@
 - Terminal with color support
 
 ### 🚀 Installation
+#### Clone the repository
+```bash
+git clone https://github.com/YOUR-USERNAME/Time_Master.git
+cd Time_Master
+```
 
 ### Option 1: Using Virtual Environment (Recommended)
 >Create and activate virtual environment
