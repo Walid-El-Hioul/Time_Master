@@ -37,7 +37,7 @@
 ### 🚀 Installation
 #### Clone the repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/Time_Master.git
+git clone https://github.com/Walid-El-Hioul/Time_Master.git
 cd Time_Master
 ```
 
