@@ -8,3 +8,26 @@ version = "1.0.0"
 description = "Time Management System with CLI Interface"
 authors = [{name = "Walid El-Hioul", email = "walidelhioul0000@gmail.com"}]
 requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["time management", "task management", "scheduling", "CLI", "productivity"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: End Users/Desktop",
+  "Topic :: Office/Business :: Scheduling",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Environment :: Console"
+]
+
+[project.urls]
+"Bug Reports" = "https://github.com/Walid-El-Hioul/Time_Master/issues"
+"Source" = "https://github.com/Walid-El-Hioul/Time_Master"
+
+[project.scripts]
+time_master = "time_master:main"
